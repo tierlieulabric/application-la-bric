@@ -894,3 +894,37 @@ header{
 
 /* --- les fleche de l'équipe et son image --- */
 
+/* Style global pour centrer le contenu sur la page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style de la carte contenant le QR Code */
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style du conteneur du QR code pour bien le centrer */
+#qrcode {
+    display: inline-block;
+    padding: 10px;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
