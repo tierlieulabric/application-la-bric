@@ -1,0 +1,896 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.btn {
+    background-color: beige;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    font-size: 25px;
+}
+
+.btn-secondary {
+    font-size: 14px;
+}
+
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-50 {
+    margin-top: 120px;
+}
+
+.marginleft {
+    margin-left: 20px;
+}
+
+.marginleft1 {
+    margin-left: 5px;
+}
+
+.marginleft2 {
+    margin-left: 10px;
+}
+
+.marginleft3 {
+    margin-left: 20px;
+}
+
+.marginleft4 {
+    margin-left: 10px;
+}
+
+.marginleft5 {
+    margin-left: 30px;
+}
+
+.marginleft6 {
+    margin-left: 20px;
+}
+
+.marginleft7 {
+    margin-left: 100px;
+}
+
+.marginleft8 {
+    margin-left: 40px;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.margin-bottom1 {
+    margin-bottom: 20px;
+}
+
+.marginright {
+    margin-right: 20px;
+}
+
+.marginright1 {
+    margin-right: 20px;
+}
+
+.marginright2 {
+    margin-right: 20px;
+}
+
+.marginright3 {
+    margin-right: 0px;
+}
+
+.marginright4 {
+    margin-right: 10px;
+}
+
+.marginright5 {
+    margin-right: 135px;
+}
+
+/*FLEX BOT*/
+
+/* rendre flexible un parent = aligner ses enfants */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-content {
+    align-content: center;
+}
+
+/* CLASSE DE DIMENSIONS*/
+
+.w-100 {
+    width: 100%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+.height {
+    height: 50px;
+}
+
+.height1 {
+    height: 50px;
+}
+
+.width {
+    width: 235vh;
+}
+
+.width1 {
+    width: 50px;
+}
+
+.maxwidth {
+    max-width: 100%
+}
+
+/*HEADER*/
+
+.logo {
+    width: 70px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header {
+    padding: 10px 64px;
+}
+
+/* section HERO*/
+
+.sectionhero {
+    background-image: url(asset/Banner.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+.sectionhero div {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.sectionhero div p {
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+/* SECTION SERVICES*/
+
+.card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.font-size {
+    font-size: 30px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.border-raduis {
+    border-radius: 0px 200px 0px 30px;
+}
+
+.border-raduiscuisine {
+    border-radius: 0px 40px 0px 0px;
+}
+
+.border-raduisentreetgarage {
+    border-radius: 40px 0px 0px 0px;
+}
+
+.border-raduisbureauxetchambre {
+    border-radius: 0px 0px 40px 0px;
+}
+
+.border-raduiscabinetetsalon {
+    border-radius: 0px 0px 0px 40px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.backgroundcolor {
+    background-color: black;
+}
+
+.justify1 {
+    justify-self: center;
+}
+
+.backgroundcolor2 {
+    background-color: beige;
+}
+
+.border-raduiscall {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.marginend {
+    justify-content: flex-end;
+}
+
+.colorwhite {
+    color: brown;
+}
+
+.colorwhite1 {
+    color: orange;
+}
+
+.colorwhite4{
+    color:brown
+}
+
+.justifycontentflexstart {
+    align-items: flex-start;
+}
+
+.test {
+    align-items: flex-start;
+}
+
+.widthtest {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.justifycontentflex {
+    justify-content: first baseline;
+}
+
+small {
+    font-size: 0.7em;
+}
+
+abbr {
+    color: brown;
+}
+
+.backgroundcolor3 {
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 90px;
+}
+
+.backgroundcolor4 {
+    background-color: gold;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.backgroundcolor5 {
+    background-color: beige;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 90px;
+}
+
+.backgroundcolor6 {
+    background-color: beige;
+}
+
+a[href^="mailto"]::before {
+    content: "association.bric.saint.chamond@gmail.com";
+}
+
+a[href^="tel"]::before {
+    content: "06 30 87 05 41";
+}
+
+label {
+    padding-right: 10px;
+}
+
+select {
+    padding: 2px 5px;
+}
+
+label {
+    display: block;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+}
+
+.colorwhite2 {
+    color: black;
+}
+
+.colorwhite3 {
+    color: red;
+}
+
+.gap {
+    gap: 30px;
+}
+
+.gap2 {
+    gap: 20px;
+}
+
+.textadapter {
+    text-size-adjust: auto;
+    width: 350px;
+}
+
+.gap3 {
+    gap: 55px;
+}
+
+.gap4 {
+    gap: 40px;
+}
+
+.gap5 {
+    gap: 80px;
+}
+
+.gap6 {
+    gap: 80px;
+}
+
+.columngap {
+    column-gap: 20px;
+}
+
+.btn3 {
+    width: 50px;
+    height: 50px;
+
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.layout-centre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Aligne tout le contenu au centre horizontalement */
+    gap: 10px;
+    /* Espace de 10px entre chaque ligne */
+    text-align: center;
+    /* Centre le texte à l'intérieur des éléments */
+    width: 100%;
+    /* Prend toute la largeur disponible */
+}
+
+.le-titre {
+    /* 1. Aligne les blocs enfants au centre (si parent Flexbox) */
+    justify-content: center;
+
+    /* 2. Centre le texte à l'intérieur du bloc */
+    text-align: center;
+
+    /* 3. Souligne le texte */
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* --- texte en arc de cercle  --- */
+
+.arc-container-inverse {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    /* Gauche, Image, Droite */
+    align-items: start;
+    gap: 20px;
+}
+
+.arc-texte {
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.arc-texte p {
+    margin-top: 0;
+}
+
+/* L'image au centre, alignée vers le bas du texte */
+
+.arc-image-bas {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 60px;
+    /* Descend la photo pour la caler au fond du creux */
+}
+
+.arc-image-bas img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Arc inversé pour le texte GAUCHE (creux vers le bas) */
+
+.shape-arc-bas-gauche {
+    float: right;
+    width: 160px;
+    height: 250px;
+    /* Plonge le cercle vers le bas (250px) pour créer le creux */
+    shape-outside: circle(180px at 180px 250px);
+    margin-left: 15px;
+}
+
+/* Arc inversé pour le texte DROITE (creux vers le bas) */
+
+.shape-arc-bas-droite {
+    float: left;
+    width: 160px;
+    height: 250px;
+    /* Version inversée pour le côté droit */
+    shape-outside: circle(180px at -20px 250px);
+    margin-right: 15px;
+}
+
+
+/* --- ADAPTATION MOBILE (TELEPHONE) --- */
+@media (max-width: 768px) {
+    .arc-container-inverse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .arc-texte {
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Désactive les formes géométriques sur mobile pour garder le texte lisible */
+    .shape-arc-bas-gauche,
+    .shape-arc-bas-droite {
+        display: none;
+    }
+
+    .arc-image-bas {
+        margin: 20px auto;
+        order: 2;
+        /* Remet proprement la photo au milieu sur téléphone */
+    }
+
+    .texte-gauche {
+        order: 1;
+    }
+
+    .texte-droite {
+        order: 3;
+    }
+}
+
+/* --- texte en arc de cercle  --- */
+
+
+
+
+/* --- économie circulaire qui tourne  --- */
+
+@keyframes rotation-complete {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.rotation-centre {
+    width: 150px;
+    /* Définissez la taille de votre choix */
+    aspect-ratio: 1 / 1;
+    /* Force l'image à être un carré parfait */
+    object-fit: cover;
+    /* Évite de déformer l'image dans le carré */
+    border-radius: 50%;
+    /* Optionnel : rend l'image ronde */
+
+    /* L'animation qui fait tourner l'image sur son axe central */
+    animation: rotation-complete 5s;
+    transform-origin: center;
+    /* Assure la rotation pile au centre */
+}
+
+/* Style de base de l'image */
+.rotatable-image {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+/* Classe d'animation qui sera activée au clic ET si visible */
+.rotatable-image.is-spinning {
+    animation: spin 3s linear infinite;
+}
+
+/* L'effet de rotation à 360 degrés */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+/* --- économie circulaire qui tourne  --- */
+
+
+
+
+
+
+/* --- les 4 photo en spirale --- */
+
+/* Zone pour afficher les 4 photos proprement */
+.galerie-spirale {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permet de passer à la ligne sur petit écran */
+    padding: 50px;
+}
+
+/* Style de base des 4 photos */
+.image-spirale {
+    object-fit: cover;
+    cursor: pointer;
+    display: block;
+}
+
+/* 1. Animation de disparition au clic */
+.anime-depart {
+    animation: spirale-disparait 2s ease-in-out forwards;
+    pointer-events: none;
+    /* Bloque le clic pendant l'animation */
+}
+
+/* 2. Animation de retour automatique */
+.anime-retour {
+    animation: spirale-revient 2s ease-in-out forwards;
+    pointer-events: none;
+}
+
+@keyframes spirale-disparait {
+    0% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(1440deg) scale(0);
+        opacity: 1;
+    }
+}
+
+@keyframes spirale-revient {
+    0% {
+        transform: rotate(1440deg) scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+/* --- les 4 photo en spirale --- */
+
+
+
+
+
+
+
+/* --- QR code --- */
+
+.qr-card {
+    background: beige;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#btn:hover {
+    background-color: black;
+}
+
+/* Style de la boîte du QR Code devenu un lien cliquable */
+#qrcode-container {
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+}
+
+/* Transforme le curseur en petite main au survol du QR code */
+#qrcode-container canvas,
+#qrcode-container img {
+    margin: 0 auto !important;
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 80px;
+    height: 80px;
+}
+
+#qrcode-container canvas:hover,
+#qrcode-container img:hover {
+    transform: scale(1.03);
+    /* Léger effet de zoom au survol */
+}
+
+.qr-text {
+    margin-top: 12px;
+    font-size: 14px;
+    display: none;
+    /* Caché au début, s'affichera en même temps que le QR code */
+}
+
+/* --- QR code --- */
+
+
+
+
+
+/* --- les fleche de l'équipe et son image --- */
+
+/* 1. Le conteneur principal (il reste fixe sur la page) */
+.photo-container {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+}
+
+/* 2. La boîte magique (c'est elle qui va TOURNER avec l'image ET les flèches) */
+.photo-wrapper {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    /* Permet une rotation fluide en 3D */
+    transform-origin: center center;
+    transition: transform 0.1s linear;
+}
+
+.photo-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* --- CLASSE CSS AJOUTÉE PAR LE JAVASCRIPT AU CLIC --- */
+.photo-wrapper.tourner {
+    animation: spirale-effet 2s ease-in-out;
+}
+
+/* Le scénario de la spirale (rétrécit, fait 3 tours, revient) */
+@keyframes spirale-effet {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(0) rotate(1440deg);
+    }
+}
+
+/* 3. Style des flèches */
+.arrow-marker {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    transform: translate(-50%, -100%);
+    transition: transform 0.2s ease;
+}
+
+/* Corps de la flèche */
+.arrow-marker::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 7px;
+    width: 6px;
+    height: 25px;
+    background-color: #ff3b30;
+    border-radius: 3px 3px 0 0;
+}
+
+/* Pointe de la flèche */
+.arrow-marker::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #ff3b30;
+}
+
+/* Animation de la flèche au survol */
+.arrow-marker:hover {
+    transform: translate(-50%, -95%) scale(1.1);
+}
+
+/* 4. Style de l'infobulle */
+.tooltip {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.arrow-marker:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* --- les fleche de l'équipe et son image --- */
+
